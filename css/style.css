@@ -1,0 +1,113 @@
+:root {
+    /* Primary Colors */
+    --pale-blues: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    /* Neutral Colors */
+    --very-pale-blue: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+    /*  'Red Hat Display', sans-serif; */
+    --primary-font:'Red Hat Display', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: var(--primary-font);
+}
+
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 375px;
+    
+    border-radius: 10px 10px 0px 0px;
+    -webkit-border-radius: 10px 10px 0px 0px;
+    -moz-border-radius: 10px 10px 0px 0px;
+    -ms-border-radius: 10px 10px 0px 0px;
+    -o-border-radius: 10px 10px 0px 0px;
+    box-shadow: 10px 10px 72px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 72px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 72px 0px rgba(0,0,0,0.75);
+}
+
+.image-illustration {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    -ms-border-radius: 10px 10px 0 0;
+    -o-border-radius: 10px 10px 0 0;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+    
+}
+
+h1{
+    font-size: 1.5em;
+    padding-bottom: 16px;
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+.paragraph{
+    color: var(--desaturated-blue);
+    padding-bottom: 40px;
+}
+
+.plan{
+    display: flex;
+    padding-bottom: 24px;
+    align-items: center;
+}
+
+.AnnualPlan{
+    color: var(--dark-blue);
+    font-weight: 1000;
+}
+
+.AnnualPlan span{
+    color: var(--desaturated-blue);
+    font-size: 0.9em;
+}
+
+.plan a{
+    font-weight: 800;
+}
+
+button{
+    background-color: var(--bright-blue);
+    color: var(--pale-blues);
+    border: none;
+    padding: 16px 56px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    font-weight: 900;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.cancel{
+    color: var(--desaturated-blue);
+    cursor: pointer;
+}
+
