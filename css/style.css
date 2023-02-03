@@ -75,11 +75,14 @@ h1{
     display: flex;
     padding-bottom: 24px;
     align-items: center;
+    justify-content: space-between;
 }
 
 .AnnualPlan{
+    display: flex;
     color: var(--dark-blue);
     font-weight: 1000;
+    flex-direction: column;
 }
 
 .AnnualPlan span{
