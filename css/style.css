@@ -21,6 +21,10 @@
 
 
 body {
+    background-image: url('../images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: var(--pale-blues);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -50,6 +54,7 @@ body {
 }
 
 .texto{
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
